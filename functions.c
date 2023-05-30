@@ -19,6 +19,7 @@ int print_char(va_list types, char buffer[],
 
 	return (handle_write_char(c, buffer, flags, width, precision, size));
 }
+
 /************************* PRINT A STRING *************************/
 /**
  * print_string - Prints a string
@@ -74,6 +75,7 @@ int print_string(va_list types, char buffer[],
 
 	return (write(1, str, length));
 }
+
 /************************* PRINT PERCENT SIGN *************************/
 /**
  * print_percent - Prints a percent sign
@@ -186,3 +188,4 @@ int print_binary(va_list types, char buffer[],
 	}
 	return (count);
 }
+
