@@ -135,6 +135,7 @@ int print_reverse(va_list types, char buffer[],
 	}
 	return (count);
 }
+
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
  * print_rot13string - Print a string in rot13.
@@ -186,3 +187,4 @@ int print_rot13string(va_list types, char buffer[],
 	}
 	return (count);
 }
+
